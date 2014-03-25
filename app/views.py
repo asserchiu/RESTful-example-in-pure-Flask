@@ -12,7 +12,7 @@ app.article_list = {
     3: 'article 3',
     4: 'article 4',
 }
-app.article_next = 5
+app.article_next = len(app.article_list) + 1
 
 
 @app.route('/')
