@@ -3,7 +3,6 @@
 
 from app import app
 from flask import jsonify, request, json
-import time
 from time import strftime, gmtime
 
 app.article_list = {
